@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "api:deps": "poetry export --without-hashes --format=requirements.txt > requirements.txt",
     "dev:api": "poetry run python3 -m uvicorn api.index:app --reload",
     "dev:next": "next dev",
     "dev": "concurrently \"pnpm run dev:next\" \"pnpm run dev:api\"",

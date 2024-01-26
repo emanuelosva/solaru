@@ -6,7 +6,7 @@ authors = ["emanuelosva <emanuelosva@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 numpy = "^1.26.3"
 pandas = "^2.2.0"
 pvlib = "^0.10.3"
