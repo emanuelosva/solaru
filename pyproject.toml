@@ -1,3 +1,8 @@
+[project]
+requires-python = ">=3.9"
+name = "solaru"
+version = "1"
+
 [tool.poetry]
 name = "solaru"
 version = "1"
@@ -6,11 +11,13 @@ authors = ["emanuelosva <emanuelosva@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python="^3.9"
 numpy = "^1.26.3"
 pandas = "^2.2.0"
 pvlib = "^0.10.3"
 fastapi = "^0.109.0"
+
+[tool.poetry.group.dev.dependencies]
 uvicorn = "^0.27.0"
 
 [build-system]
